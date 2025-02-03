@@ -3,15 +3,13 @@
     padding:0px;
     box-sizing:border-box;
 
-
-
 }
 .menu-container{
   position:top ;
 }
 
 header {
-  background-color: #adaee4;
+  background-color: #dad4f9;
   text-align: center;
   padding: 2rem 0;
   animation: slideDown 3s ease-out;
@@ -75,7 +73,7 @@ padding: 12px 0;
 
 
 #coverPhoto {
-  background-color: transparent;
+ 
   display: block;
   width: 250px;
   height: auto;
@@ -83,7 +81,7 @@ padding: 12px 0;
 }
 
 .container-contact{
-  background-color:transparent;
+ 
   display: flex;
   justify-content: center;
   flex-wrap: wrap; 
@@ -94,8 +92,8 @@ padding: 12px 0;
 .container-contact img {
   margin-left: 10px;
   margin-right: 10px;
-  
-  width:50px;
+  padding:10px;
+  width:75px;
   height:auto;
  
 }
@@ -123,7 +121,7 @@ padding: 12px 0;
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
   .container {
@@ -144,27 +142,64 @@ padding: 12px 0;
 
 }
 
-  .container-skills img {
-
-    margin-left: auto;
-    margin-right: auto;
+  .container-skills img {  
     
     width:100px;
     height:auto;
+    padding: 10px;
+   
+    margin-block: 10px;
    
   }
   h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Varela Round", serif;
+  font-weight: 1500;
+  font-style: bold;
     text-align: center;
 
   }
   
   .about p{
+    width: 750px;
     text-align: center;
+ 
+  }
+
+  p{
+    font-family: "Varela Round", serif;
+  font-weight: 200;
+  font-style: light;
+    
   }
 
   h1{
+  font-family: "Varela Round", serif;
+  font-weight: 1500;
+  font-style: bold;
     text-align:center;
 
   }
+  .containerContent h4 {
+    padding:5px;
+    font-family: "Varela Round", serif;
+  font-weight: 100%;
+  font-style: bold;
+    text-align: center;
+    
+
+  }
+
+  .containerContent p {
+    text-align: center;
+    padding: 10px;
+
+  }
+  h2{
+    padding:25px;
+  }
+
+  h4{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+
 
