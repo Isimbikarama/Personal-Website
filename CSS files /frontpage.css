@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+
+
+}
+.menu-container{
+  position:top ;
+}
+
+header {
+  background-color: #adaee4;
+  text-align: center;
+  padding: 2rem 0;
+  animation: slideDown 3s ease-out;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contact img:hover{
+  box-shadow: 0 8px 16px 0 rgba(249, 249, 249, 0.5);
+}
+
+
+.bar {
+background-color: transparent;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.bar li {
+  background-color: transparent;
+  align-items: right;
+  height: 100%;
+  width: 120px;
+}
+
+.bar li a {
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.bar .has-dropdown ul li a{
+padding: 12px 0;
+}
+
+.bar li a:hover {
+  background-color: rgb(194, 204, 251);
+}
+
+
+.dropdown {
+  background-color: rgb(245, 193, 97);
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+
+.bar li.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+
+#coverPhoto {
+  background-color: transparent;
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.container-contact{
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin-top: 20px;
+
+}
+
+.container-contact img {
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  width:50px;
+  height:auto;
+ 
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: auto;
+  margin: 40px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 40px;
+}
+
+.card img {
+  background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.25);
+}
+
+  .container {
+  display: flex;
+    justify-content: center;
+    padding:center;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+
+}
+
+
+.container-skills{  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+
+}
+
+  .container-skills img {
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    width:100px;
+    height:auto;
+   
+  }
+  h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+  }
+  
+  .about p{
+    text-align: center;
+  }
+
+  h1{
+    text-align:center;
+
+  }
+
